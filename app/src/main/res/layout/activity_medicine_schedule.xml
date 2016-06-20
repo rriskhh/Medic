@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="rriskhh.start.medic.MedicineSchedule">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#99D9EA"
+        android:layout_margin="14px"
+        android:id="@+id/addMedicine"
+        android:text="Add New Medicine"
+        android:textSize="50px"
+        android:textColor="#ffffff"
+        />
+    <ListView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/addMedicine"
+        android:background="#125688"
+        android:id="@+id/allMed">
+
+    </ListView>
+
+</RelativeLayout>

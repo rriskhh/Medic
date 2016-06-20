@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:gravity="center_horizontal"
+    tools:context="rriskhh.start.medic.DoctorLocation">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Speciality"
+        android:id="@+id/cat"
+        android:textSize="24dp"
+        android:textColor="#000000"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="2dp"
+        />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:background="#125688"
+        android:layout_marginTop="10dp"
+        android:id="@+id/spinner_cat"
+        android:prompt="@string/speciality"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location"
+        android:id="@+id/place"
+        android:textSize="24dp"
+        android:textColor="#000000"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="2dp"
+        />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="#125688"
+        android:layout_marginTop="10dp"
+        android:id="@+id/spinner_place"
+        android:prompt="@string/speciality"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#99D9EA"
+        android:padding="10dp"
+        android:layout_margin="20dp"
+        android:id="@+id/button"
+        android:textSize="30dp"
+        android:text="Find Doctor"
+        android:textColor="#ffffff"
+       />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:layout_gravity="center"
+        android:id="@+id/doc"
+        android:textColor="#000000"
+        android:layout_marginTop="20dp"
+        android:text="Doctors Here!"
+        android:layout_marginBottom="20px"/>
+
+</LinearLayout>
+</ScrollView>
